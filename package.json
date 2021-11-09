@@ -1,0 +1,48 @@
+{
+  "name": "gerarador-boletos",
+  "version": "1.0.0",
+  "description": "Gerar boletos para vários bancos",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "gerarBradesco": "node ./examples/gerar-boleto-bradesco.js",
+    "gerarCecred": "node ./examples/gerar-boleto-cecred.js",
+    "gerarBrasil": "node ./examples/gerar-boleto-BancoDoBrasil.js",
+    "gerarItau": "node ./examples/gerar-boleto-itau.js"
+  },
+  "keywords": [
+    "gerador",
+    "boleto",
+    "boletos",
+    "bancario",
+    "banco",
+    "cecred",
+    "sicredi",
+    "ailos",
+    "viacredi",
+    "bradesco",
+    "brasil",
+    "itau",
+    "caixa",
+    "economica",
+    "federal",
+    "santander",
+    "sicoob"
+  ],
+  "author": "Vitor Ricardo <vitorricardo@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  },
+  "repository": "git+https://github.com/vitorric/gerador-boletos.git",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "moment": "^2.29.1",
+    "pdfkit": "^0.13.0"
+  }
+}
