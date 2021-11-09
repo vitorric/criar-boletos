@@ -1,5 +1,5 @@
 {
-  "name": "gerarador-boletos",
+  "name": "criar-boletos",
   "version": "1.0.0",
   "description": "Gerar boletos para vários bancos",
   "main": "lib/index.js",
@@ -16,6 +16,7 @@
     "gerarItau": "node ./examples/gerar-boleto-itau.js"
   },
   "keywords": [
+    "criar",
     "gerador",
     "boleto",
     "boletos",
@@ -39,7 +40,7 @@
   "devDependencies": {
     "eslint": "^8.1.0"
   },
-  "repository": "git+https://github.com/vitorric/gerador-boletos.git",
+  "repository": "git+https://github.com/vitorric/criar-boletos.git",
   "dependencies": {
     "base64-stream": "^1.0.0",
     "moment": "^2.29.1",
