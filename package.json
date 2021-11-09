@@ -10,10 +10,10 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "gerarBradesco": "node ./examples/gerar-boleto-bradesco.js",
-    "gerarCecred": "node ./examples/gerar-boleto-cecred.js",
-    "gerarBrasil": "node ./examples/gerar-boleto-BancoDoBrasil.js",
-    "gerarItau": "node ./examples/gerar-boleto-itau.js"
+    "criarBradesco": "node ./examples/criar-boleto-bradesco.js",
+    "criarCecred": "node ./examples/criar-boleto-cecred.js",
+    "criarBrasil": "node ./examples/criar-boleto-BancoDoBrasil.js",
+    "criarItau": "node ./examples/criar-boleto-itau.js"
   },
   "keywords": [
     "criar",

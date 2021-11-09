@@ -1,15 +1,15 @@
-# gerar-boletos
+# criar-boletos
 
 #### NPM badges
 <!-- [START badges] -->
-[![NPM gerar-boletos package](https://img.shields.io/npm/v/gerar-boletos.svg)](https://npmjs.org/package/gerar-boletos)
-[![npm downloads](https://img.shields.io/npm/dm/gerar-boletos.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=gerar-boletos&from=2017-01-1)
-[![npm downloads](https://img.shields.io/npm/dt/gerar-boletos.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=gerar-boletos&from=2017-01-1)
+[![NPM criar-boletos package](https://img.shields.io/npm/v/criar-boletos.svg)](https://npmjs.org/package/criar-boletos)
+[![npm downloads](https://img.shields.io/npm/dm/criar-boletos.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=criar-boletos&from=2017-01-1)
+[![npm downloads](https://img.shields.io/npm/dt/criar-boletos.svg?maxAge=604800)](https://npm-stat.com/charts.html?package=criar-boletos&from=2017-01-1)
 <!-- [END badges] -->
 
 # CRÉDITOS
 
-Este repositório é uma adaptação [deste aqui](https://github.com/Romulosanttos/gerar-boletos). Todo o crédito é dele. 
+Este repositório é uma adaptação [deste aqui](https://github.com/Romulosanttos/criar-boletos). Todo o crédito é dele. 
 
 # Descrição
 
@@ -28,24 +28,24 @@ Geração de boletos para bancos:
 ### Install
 
 ```javascript
-npm i gerar-boletos
+npm i criar-boletos
 ```
 ```javascript
-yarn add gerar-boletos
+yarn add criar-boletos
 ```
 ### Exemplos de uso
 
 ```javascript
-npm run gerarBrasil
+npm run criarBrasil
 ```
 ```javascript
-npm run gerarBradesco
+npm run criarBradesco
 ```
 ```javascript
-npm run gerarCecred
+npm run criarCecred
 ```
 ```javascript
-npm run gerarItau
+npm run criarItau
 ```
 * [pasta com arquivos de exemplo](/examples)
 
