@@ -17,6 +17,7 @@ const boleto = {
   beneficiario: {
     nome: 'NOME EMPRESA',
     cnpj: '18795541000119',
+    logo: '',
     dadosBancarios: {
       carteira: '109',
       agencia: '0000',
@@ -43,6 +44,7 @@ const boleto = {
       processamento: '2021-11-08',
       documentos: '2021-11-08'
     },
+    aceite: false,
     codigoDeBarras: '00000000000000000000000000000000000000000000',
     linhaDigitavel: '00000.00000 00000.000000 00000.000000 0 00000000000000'
   }
