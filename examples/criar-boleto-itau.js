@@ -1,7 +1,7 @@
 const { Bancos, Boletos, streamToPromise } = require('../lib/index');
 
 const boleto = {
-  banco: new Bancos.Itau(),
+  banco: new Bancos.Citi(),
   pagador: {
     nome: 'VITOR RICARDO',
     endereco: {

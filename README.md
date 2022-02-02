@@ -18,6 +18,7 @@ Biblioteca em Node.js para geração de boletos utilizando PDFKit
 Geração de boletos para bancos:
 - Bradesco
 - Caixa
+- Citi
 - Ailos (Cecred)
 - Itaú
 - Sicoob
