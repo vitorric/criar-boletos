@@ -4,6 +4,7 @@ const boleto = {
   banco: new Bancos.Itau(),
   pagador: {
     nome: 'VITOR RICARDO',
+    registroNacional: '12648511709', 
     endereco: {
       logradouro: 'R. TANTO FAZ, 15',
       bairro: 'BAIRRO NAO SEI',
@@ -16,7 +17,7 @@ const boleto = {
   localPagamento: 'PAGAVEL EM QUALQUER BANCO, OU CORRESPONDENTE NÃO BANCÁRIO, MESMO APÓS O VENCIMENTO',
   beneficiario: {
     nome: 'NOME EMPRESA',
-    cnpj: '18795541000119',
+    registroNacional: '18795541000119',
     logo: '',
     dadosBancarios: {
       carteira: '109',
